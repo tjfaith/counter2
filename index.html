@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter2</title>
+    <style>
+        #msg {
+            font-size: 20px;
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="display:flex">
+        <button  id="delBtn" onclick="deleteCount()">DELETE</button>
+        <button  id="canBtn" onclick="cancelDelete()" >CANCEL</button>
+    </div>
+    <p>You have <span id="counter">5</span> seconds to cancel </p>
+    <p id="msg"></p>
+    <script src="index.js"></script>
+</body>
+</html>
